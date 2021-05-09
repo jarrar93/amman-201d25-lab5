@@ -63,8 +63,6 @@ function sumAndMultiply(a, b, c) { //eslint-disable-line
   // return [g, y, +i + " and " + ii + " and " + iii + " sum to " + g + ".", "The product of " + i + " and " + ii + " and " + iii + " is " + y + "."];
 
 }
-
-
 // Here is the test for sumAndMultiply(); uncomment it to run it
 testSumAndMultiply(4, 7, 5);
 
@@ -92,7 +90,7 @@ function sumArray(sumArr) { //eslint-disable-line
 
 // Here is the test for sumArray(); uncomment it to run it
 
-testSumArray(testArray);
+testSumArray(2, 3, 4);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
@@ -113,12 +111,10 @@ function multiplyArray() { //eslint-disable-line
   let nice = multiply(pro, 4)[0];
   return [nice, `The numbers ${2},${3},${4} have a product of ${nice}.`]
 
-
-
 }
 
 // Here is the test for multiplyArray(); uncomment it to run it
-testMultiplyArray();
+testMultiplyArray(2, 3, 4);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. 
 
